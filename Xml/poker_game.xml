@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+    <Server_name>
+        <group_name   value = 'GAME'/>
+        <server_group_name  value = 'GAME007,GAME008,GAME009,GAME010'/>
+        <alert_table_num    value = '100' />
+    </Server_name>
+    
+    <Server_addr>
+        <local_addr   value = 'tcp://'/>
+        <md_addr      value = 'amqp://30.30.32.115:5673/;amqp://30.30.32.117:5672/;amqp://30.30.32.117:5673/'/>
+    </Server_addr>
+    
+    <Event>
+       <front   value = 'FRONT'/>
+       <match   value = 'MATCH'/>    
+       <chat    value = 'CHAT'/>   
+      <timer   value = 'TIMER'/>
+      <game    value = 'GAME'/>  
+      <addtmr value = 'ADDTMR'/>
+    </Event>
+
+    <Redis_addr>
+        <user_addr_mem_ip    value = '30.30.32.115' />
+        <user_addr_mem_port  value = '6379' />
+        <server_addr_prefix    value = '/500/texas_holdem/gameaddr/' /> 
+    </Redis_addr>
+
+    <Watcher_name>
+      <group_name   value = 'WATCH'/>
+      <server_name  value = 'WATCH001'/>
+    </Watcher_name>
+
+    <Paipu>
+       <client_group value = 'CLIENT_P'/>
+       <client_name  value = 'CLIENT_1'/>
+       <server_group value = 'PAIPU'/>
+       <server_name  value = 'PAIPU001'/>
+    </Paipu>
+</xml>
+

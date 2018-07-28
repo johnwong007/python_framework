@@ -1,0 +1,5 @@
+<root>
+	<redis>
+		<conn host='r-wz91d32161799a14.redis.rds.aliyuncs.com' port='6379' password='WANGjun1990322'/>
+	</redis>
+</root>

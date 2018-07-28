@@ -1,0 +1,5 @@
+作者：王骏
+redis-python封装
+主机地址host，端口号port，密码password都从xml中读取
+以后需要使用redis只需将redis.xml文件和Redisconn.py导入即可
+simpletest.py为示例代码

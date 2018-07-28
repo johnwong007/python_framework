@@ -1,0 +1,112 @@
+INFO:root:Traceback (most recent call last):
+  File "F:\develop\python\test.py", line 12, in divide
+    sdfsd
+NameError: global name 'sdfsd' is not defined
+
+INFO:root:Traceback (most recent call last):
+  File "F:\develop\python\Learning\newGameServer\Poker\test.py", line 12, in divide
+    sdfsd
+NameError: global name 'sdfsd' is not defined
+
+INFO:root:Traceback (most recent call last):
+  File "F:\develop\python\Learning\newGameServer\Poker\test.py", line 12, in divide
+    pack = json.read(msg)
+NameError: global name 'json' is not defined
+
+INFO:root:Traceback (most recent call last):
+  File "F:\develop\python\Learning\newGameServer\Poker\test.py", line 12, in divide
+    pack = json.read(msg)
+NameError: global name 'json' is not defined
+
+INFO:root:Traceback (most recent call last):
+  File "F:\develop\python\Learning\newGameServer\Poker\test.py", line 12, in divide
+    pack = json.read(msg)
+NameError: global name 'json' is not defined
+
+INFO:root:Traceback (most recent call last):
+  File "F:\develop\python\Learning\newGameServer\Poker\test.py", line 19, in divide
+    pack = json.read(msg)
+NameError: global name 'json' is not defined
+
+INFO:root:Traceback (most recent call last):
+  File "F:\develop\python\Learning\newGameServer\Poker\test.py", line 23, in divide
+    pack = json.read(msg)
+NameError: global name 'json' is not defined
+
+INFO:root:Traceback (most recent call last):
+  File "F:\develop\python\Learning\newGameServer\Poker\test.py", line 24, in divide
+    pack = json.read(msg)
+NameError: global name 'json' is not defined
+
+INFO:root:Traceback (most recent call last):
+  File "F:\develop\python\Learning\newGameServer\Poker\test.py", line 24, in divide
+    pack = json.read(msg)
+NameError: global name 'json' is not defined
+
+INFO:root:Traceback (most recent call last):
+  File "F:\develop\python\Learning\newGameServer\Poker\test.py", line 22, in divide
+    pack = json.read(msg)
+NameError: global name 'json' is not defined
+
+INFO:root:Traceback (most recent call last):
+  File "F:\develop\python\Learning\newGameServer\Poker\test.py", line 23, in divide
+    pack = json.read(msg)
+NameError: global name 'json' is not defined
+
+INFO:root:Traceback (most recent call last):
+  File "F:\develop\python\Learning\newGameServer\Poker\test.py", line 23, in divide
+    pack = json.read(msg)
+NameError: global name 'json' is not defined
+
+INFO:root:Traceback (most recent call last):
+  File "F:\develop\python\Learning\newGameServer\Poker\test.py", line 25, in divide
+    pack = json.read(msg)
+  File "F:\develop\python\Json\JsonUtil.py", line 23, in read
+    return eval(data)
+TypeError: eval() arg 1 must be a string or code object
+
+INFO:root:Traceback (most recent call last):
+  File "F:\develop\python\Learning\newGameServer\Poker\test.py", line 25, in divide
+    pack = json.read(msg)
+  File "F:\develop\python\Json\JsonUtil.py", line 23, in read
+    return eval(data)
+  File "<string>", line 0
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+
+INFO:root:Traceback (most recent call last):
+  File "F:\develop\python\Learning\newGameServer\Poker\test.py", line 25, in divide
+    pack = json.read(msg)
+  File "F:\develop\python\Json\JsonUtil.py", line 23, in read
+    return eval(data)
+  File "<string>", line 0
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+
+INFO:root:包头或者包体内容为空，非法的消息
+INFO:root:包头或者包体内容为空，非法的消息
+INFO:root:Traceback (most recent call last):
+  File "F:\develop\python\Learning\newGameServer\Poker\test.py", line 44, in divide
+    if comand_id == None or connect_id == None or user_id == None or table_id == None:
+NameError: global name 'comand_id' is not defined
+
+INFO:root:消息超时,不处理,发送时间:1519698922,当前时间:1519723115.53
+INFO:root:消息超时,不处理,发送时间:1519698922,当前时间:1519740227.54
+INFO:root:消息超时,不处理,发送时间:1519698922,当前时间:1519740236.56
+INFO:root:消息超时,不处理,发送时间:1519698922,当前时间:1519740298.29
+INFO:root:消息超时,不处理,发送时间:1519698922,当前时间:1519740309.7
+INFO:root:Traceback (most recent call last):
+  File "F:\develop\python\Learning\newGameServer\Poker\ClientEvent.py", line 26, in divide
+    pack = json.read(msg)
+  File "F:\develop\python\Json\JsonUtil.py", line 23, in read
+    return eval(data)
+  File "<string>", line 2
+    {"0003":{"0005":131096,"0007":1519698922,"0006":"YjkwNGRiZWFlZjk4MDNiOTViNTQ0ZDY4MTRlZGRmYTE=60103252","0008":4634.0},"0004":{"3026":"GOLD","2003":"3300","2004":"ksir","5029":"970144603.8","2009":"20000.0","1002":"GAME001#0000000000000000CASH000","2061":"192.168.23.34","504C":970144604,"2003":"3300","2004":"ksir","0009":"FLASH/2.0"}}
+    ^
+IndentationError: unexpected indent
+
+INFO:root:消息超时,不处理,发送时间:1519698922,当前时间:1519740355.94
+INFO:root:消息超时,不处理,发送时间:1519698922,当前时间:1519779959.52
+INFO:root:消息超时,不处理,发送时间:1519698922,当前时间:1519779965.73

@@ -1,0 +1,2 @@
+Waiting for messages
+Received u'\u8fd9\u662f\u6765\u81ea\u5e7f\u64ad\u7684\u6d88\u606f'
